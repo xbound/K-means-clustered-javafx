@@ -73,7 +73,7 @@ public class ClusterSolver extends Thread
         }
     }
 
-    public boolean assignPointsToClusters()
+    private boolean assignPointsToClusters()
     {
         boolean groupNotChanged = true;
         for(Point p : points)
@@ -95,7 +95,7 @@ public class ClusterSolver extends Thread
         return groupNotChanged;
     }
 
-    public void recalculateClustersPosition()
+    private void recalculateClustersPosition()
     {
         for (Point c:clusters)
         {
