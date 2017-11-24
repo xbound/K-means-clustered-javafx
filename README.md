@@ -24,7 +24,7 @@ For the first step ,after pressing 'Start' button solver executes `assignPointsT
 
 In `Point` class `setColor()` method checks if point's current color is different from new color. If so that means point changed its group and `setColor()` method returns `false` boolean value to solver. Solver summarise results of each `setColor()` operation using AND operator. If summary result is `false` it continue recalculating new centers' coordinates for each group.
 
-![](https://i.giphy.com/media/3ov9jSvhrfzkVGNDAQ/giphy.mp4)
+![](https://i.imgur.com/BsakGDG.gifv)
 
 ### Built with:
     
